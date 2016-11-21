@@ -1,0 +1,7 @@
+bvchsdvchsd
+It is also possible to run mobile tests on real devices (Currently only Android is supported). In case of running tests on real devices additional parameters are supported:
+
+-Dplatform - determine if IOS or ANDROID should be used
+-Dplatform-version - get device's uuid from mobile config for provided platform version
+-Ddevice-id - get device with provided uuid
+If both platform-version and device-id are provided device with provided uuid would be chosen.
